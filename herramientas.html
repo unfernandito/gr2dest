@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2" />
+
+		<title>GR2DEST</title>
+
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="themes/gr2dest_app.css">
+
+		<link rel="stylesheet" href="themes/gr2dest_app.min.css">
+
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
+
+		<link rel="stylesheet" href="js/jqm/jquery.mobile-1.4.0.css">
+
+		<script src="js/jquery-2.0.3.min.js"
+		></script>
+
+		<script type="text/javascript" src="js/jquery-migrate-1.2.1.js"></script>
+
+		<script src="js/jqm/jquery.mobile-1.4.0.min.js"></script>
+
+		<style type="text/css" media="screen">
+			body {
+				font-size: 14px;
+				
+			}
+
+			#contenido {
+
+				text-align: justify;
+			}
+
+			
+
+			#pie {
+				text-align: center;
+			}
+
+			#boton {
+				color: white;
+				background-color: #666666;
+			}
+
+			#cabecera {
+				color: red;
+			}
+			
+			#menu{
+				color: white;
+				background-color: #666666;
+				
+			}
+
+			#who {
+				text-align: justify;
+				font-size: 14px;
+
+			}
+
+			h1{
+				text-align: center;
+			}
+
+			#imagen{
+				text-align: center;
+
+			}
+
+		</style>
+
+	</head>
+	
+	<body>
+	<div data-role="page" id="herramientas">
+			<div data-role="header" data-theme="b" data-position="fixed" id="cabecera">
+				<h1>GR2DEST Application</h1>
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a href="index.html" data-role="button" data-theme="a" id="boton" data-icon="eye"> Inicio</a>
+						</li>
+						<li>
+							<a href="index.html/#herramientas" data-role="button" data-theme="a" id="boton" data-icon="eye">Herramientas de Hacking</a>
+						</li>
+						<li>
+							<a href="manuales.html" data-role="button" data-theme="a"  id="boton" data-icon="eye">Manuales</a>
+						</li>
+						<li>
+							<a href="#sesiones" data-role="button" data-theme="a" id="boton" data-icon="eye">Sesiones</a>
+						</li>
+						<li>
+							<a href="#quienes-somos" data-role="button" data-theme="a" id="boton" data-icon="eye">¿Quienes Somos?</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div data-role="collapsible-set" data-theme="b" >
+				<div data-role="collapsible" data-theme="b" >
+					<h1>Nmap</h1>
+
+					<p>Nmap es un programa de código abierto que sirve para efectuar rastreo de puertos
+					<br/>
+					Se usa para evaluar la seguridad de sistemas informáticos, así como para descubrir servicios o servidores en una red informática. </a>
+					</p>
+
+					<a data-role="button" data-inline="true" data-rel="popup" href="#nmap">Ir a Nmap </a>
+
+						<div data-role="popup" id="nmap" data-overlay-theme="a" data-theme="b" data-tolerance="15,15" class="ui-content">
+						<iframe width="1240" height="420" src="http://nmap.online-domain-tools.com/" frameborder="0" ></iframe>
+	 					</div>
+				
+				</div>
+				<div data-role="collapsible" data-theme="b">
+					<h2> Información acerca de Una página web</h2>
+					<p>Whois + DNS record + Port Scan + Traceroute</p>
+					
+					<a data-role="button" data-inline="true" data-rel="popup" href="#whois">Ir a Whois + DNS Record + Port Scan + Traceroute</a>
+
+					<div data-role="popup" id="whois" data-overlay-theme="a" data-theme="b" data-tolerance="15,15" class="ui-content">
+						<iframe width="1240" height="420" src="http://networking.ringofsaturn.com/Tools/probe.php" frameborder="0"></iframe>
+
+					</div>
+
+				</div>
+				
+				<div data-role="collapsible" data-theme="b">
+					<h3>Chequeador de Contraseñas</h3>
+					<p>El Chequeador de Contraseñas en línea le ayuda a evaluar la solidez de su contraseña. Más exactamente, Password Checker Online comprueba la seguridad de la contraseña contra dos tipos básicos de métodos de obtención ilegal de contraseña - el ataque de fuerza bruta y el ataque de diccionario. También analiza la sintaxis de su contraseña y le informa sobre sus posibles debilidades. Esta herramienta se puede por lo tanto también ayudará a crear una contraseña fuerte de uno débil.</p>
+					
+					<a data-role="button" data-inline="true" data-rel="popup" href="#chequeador"data-theme="b">Ir a chequeador de Contraseñas</a>
+
+					<div data-role="popup" id="chequeador" data-overlay-theme="a" data-theme="b" data-tolerance="15,15" class="ui-content">
+						<iframe width="1240" height="420" src="http://password-checker.online-domain-tools.com/" frameborder="0"></iframe>
+					</div>
+					
+				</div>
+				
+				<div data-role="collapsible" data-theme="b">
+					<h4>Los codificadores y decodificadores</h4>
+					<p>Los codificadores y decodificadores en linea consta de varias herramientas que le permiten codificar o decodificar datos utilizando diversos métodos. Nuestra aplicación es compatible con la entrada de cadena de texto y el archivo de entrada. Si los datos que desea codificar o descodificar están en la forma de una cadena corta se recomienda utilizar la entrada de cadena de texto. En cambio para los datos de entrada grande le recomendamos que use un archivo como entrada.</p>
+					
+					<a href="#encod" data-role="button" data-inline="true" data-rel="popup" data-theme="b">Ir a encodificar o decodificar </a>
+
+					<div data-role="popup" id="encod" data-overlay-theme="a" data-theme="b" class="ui-content" data-tolerance="15,15">
+
+						<iframe width="1240" height="420" src="http://encoders-decoders.online-domain-tools.com/" frameborder="0"></iframe>
+
+					</div>
+				</div>
+				
+				<div data-role="collapsible" data-theme="b">
+					<h5>Servidor de correo en línea Blacklist Checker</h5>
+					<p>Servidor de correo en línea Blacklist Checker evalúa si un servidor de correo específico aparece en una o más de las listas negras de bien conocidos y ampliamente utilizados. Tener el servidor de correo que utiliza para enviar sus mensajes de correo electrónico en una o más listas negras puede provocar que los mensajes nunca alcanzarán sus destinatarios. Los administradores de servidores de correo suelen utilizar herramientas como el Mail Online Servidor Blacklist Checker cuando hay una posibilidad de que sus servidores se han convertido en la lista negra.</p>
+					
+					<a href="#mail" data-role="button" data-theme="b" data-rel="popup" data-inline="true">Ir al Servidor de correo en línea Blacklist Checker</a>
+					<div data-role="popup" id="mail" data-overlay-theme="a" data-theme="b" data-tolerance="15,15" class="ui-content">
+						<iframe width="1240" height="420" src="http://mail-blacklist-checker.online-domain-tools.com/" frameborder="0"></iframe>
+					</div>
+
+				</div>
+				
+				<div data-role="collapsible" data-theme="b">
+					<h6>Generador de Contraseñas</h6>
+					<p>El generador de contraseñas online genera contraseñas de fuerza arbitraria. Puede utilizar una de las plantillas predefinidas para generar contraseñas muy fuertes, fuertes, medianos o débiles, o usted puede configurar sus criterios personalizados para generar contraseñas.</p>
+					
+					<a href="#genecon" data-role="button" data-inline="true" data-rel="popup" data-theme="b">Ir al generador de contraseñas </a>
+
+					<div data-role="popup" id="genecon" data-overlay-theme="a" data-theme="b" data-tolerance="15,15" class="ui-content">
+						<iframe width="1240" height="420" src="http://password-generator.online-domain-tools.com/" frameborder="0"></iframe>
+					</div>
+
+				</div>
+
+
+			</div>
+
+			<div data-role="collapsible-set" data-theme="b">
+
+				<div data-role="collapsible">
+					<h1>Exploit-db</h1>
+					<div id="digi-container">
+					<h3>Introduzca sus criterios de búsqueda seleccionados</h3>
+					<div class="page_content" >
+						<form method="get" action="http://www.exploit-db.com/search/" style="border:solid #222 1px; width:505px; background-image:url(http://www.exploit-db.com/images/search.png);background-repeat:no-repeat;">
+							<input type="hidden" name="action" value="search" />
+							<input type="hidden" name="filter_page" value="1" />
+
+							<ul style="font-size:14px; display:table; padding:5px; color: red;">
+								<li class="clearfix" style="display:table-row;">
+									<label for="description">Descripción:</label>
+									<input type="text" name="filter_description" class="color1"  id="description" />
+								</li>
+								<li class="clearfix" style="display:table-row;">
+									<label for="exploit_text">Búsqueda de texto libre:</label>
+									<input type="text" name="filter_exploit_text" class="color1"  id="exploit_text" />
+								</li>
+								<li class="clearfix" style="display:table-row;">
+									<label for="author">Autor:</label>
+									<input type="text" name="filter_author" class="color1"  id="author" />
+								</li>
+								<li class="clearfix" style="display:table-row;">
+									<label for="platform">Plataforma:</label>
+									<select name="filter_platform" id="platform">
+										<option value="0">Any</option>
+										<option value="1">aix</option>
+										<option value="46">arm</option>
+										<option value="2">asp</option>
+										<option value="54">atheos</option>
+										<option value="51">beos</option>
+										<option value="3">bsd</option>
+										<option value="6">bsdi_x86</option>
+										<option value="4">bsd_ppc</option>
+										<option value="5">bsd_x86</option>
+										<option value="47">cfm</option>
+										<option value="7">cgi</option>
+										<option value="8">freebsd</option>
+										<option value="9">freebsd_x86</option>
+										<option value="10">freebsd_x86-64</option>
+										<option value="11">generator</option>
+										<option value="12">hardware</option>
+										<option value="13">hp-ux</option>
+										<option value="52">immunix</option>
+										<option value="14">irix</option>
+										<option value="50">java</option>
+										<option value="15">jsp</option>
+										<option value="16">linux</option>
+										<option value="18">linux_mips</option>
+										<option value="19">linux_ppc</option>
+										<option value="20">linux_sparc</option>
+										<option value="17">lin_amd64</option>
+										<option value="21">lin_x86</option>
+										<option value="22">lin_x86-64</option>
+										<option value="23">minix</option>
+										<option value="55">mips</option>
+										<option value="24">multiple</option>
+										<option value="25">netbsd_x86</option>
+										<option value="48">netware</option>
+										<option value="26">novell</option>
+										<option value="27">openbsd</option>
+										<option value="28">openbsd_x86</option>
+										<option value="30">osx</option>
+										<option value="29">osx_ppc</option>
+										<option value="53">palm_os</option>
+										<option value="31">php</option>
+										<option value="32">plan9</option>
+										<option value="33">qnx</option>
+										<option value="34">sco</option>
+										<option value="35">sco_x86</option>
+										<option value="49">sh4</option>
+										<option value="36">solaris</option>
+										<option value="37">solaris_sparc</option>
+										<option value="38">solaris_x86</option>
+										<option value="39">tru64</option>
+										<option value="40">ultrix</option>
+										<option value="41">unix</option>
+										<option value="42">unixware</option>
+										<option value="43">win32</option>
+										<option value="44">win64</option>
+										<option value="45">windows</option>
+									</select>
+								</li>
+								<li class="clearfix" style="display:table-row;">
+									<label for="type">Tipo:</label>
+									<select name="filter_type" id="type" onchange="checkSelectedTypeOnSearchForm();">
+										<option value="0">Any</option>
+										<option value="1">dos</option>
+										<option value="2">local</option>
+										<option value="5">papers</option>
+										<option value="3">remote</option>
+										<option value="4">shellcode</option>
+										<option value="6">webapps</option>
+									</select>
+								</li>
+								<li id="search_form_language" class="clearfix" style="display:table-row;">
+									<label for="p_language">Lenguaje:</label>
+									<select name="filter_lang_id" id="p_language">
+										<option value="0">Any</option>
+										<option value="1">English</option>
+										<option value="2">French</option>
+										<option value="3">Arabic</option>
+										<option value="4">Spanish</option>
+										<option value="5">Persian</option>
+										<option value="6">Italian</option>
+										<option value="7">Turkish</option>
+										<option value="8">German</option>
+										<option value="9">Portuguese</option>
+										<option value="10">Albanian</option>
+										<option value="11">Romanian</option>
+										<option value="12">Portugues</option>
+										<option value="13">Morocco</option>
+										<option value="14">Farsi</option>
+										<option value="15">Moroccan</option>
+										<option value="16">Bahasa Melayu</option>
+										<option value="17">Deutsch</option>
+										<option value="18">Hungarian</option>
+										<option value="19">Hebrew</option>
+										<option value="20">Indonesian</option>
+										<option value="21">Vietnamese</option>
+										<option value="22">Georgian</option>
+										<option value="23">Brazilian</option>
+										<option value="24">Iranian</option>
+										<option value="25">Kurdish</option>
+										<option value="26">Macedonian</option>
+									</select>
+								</li>
+								<li class="clearfix" style="display:table-row;">
+									<label for="port">Puerto:</label>
+									<input type="text" name="filter_port" id="port" value="" />
+								</li>
+								<li class="clearfix" style="display:table-row;">
+									<label for="osvdb">OSVDB:</label>
+									<input type="text" name="filter_osvdb" class="color1"  id="osvdb" />
+								</li>
+								<li class="clearfix" style="display:table-row;">
+									<label for="cve">CVE (eg: 2010-2204):</label>
+									<input type="text" name="filter_cve" class="color1"  id="cve" />
+								</li>
+								<li class="clearfix" style="display:table-row;">
+									<div data-role="button" data-theme="b">
+										<button type="submit" class="button">
+											Buscar
+										</button>
+									</div>
+								</li>
+							</ul>
+
+						</form>
+					</div><!-- end of .page_content -->
+				</div><!--// end digi container //-->
+
+				<script type="text/javascript">
+				var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+				document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+			</script>
+			<script type="text/javascript">
+				try {
+					var pageTracker = _gat._getTracker("UA-1981501-4");
+					pageTracker._trackPageview();
+				} catch(err) {
+				}
+			</script>
+					
+				</div>
+				
+			</div>
+			
+			<div data-role="footer" data-theme="b" data-position="fixed" id="pie">
+				GR2DEST Grupo de estudio
+				<a href="http://gr2dest.org/" data-role="button" data-theme="c" data-icon="tag">gr2dest</a>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
